@@ -23,12 +23,15 @@ body {
     justify-content: center;
 }
 .piano {
-    width: 80%;
+    width: 75%;
+    height: 50%;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     background: green ;
+    position: relative;
 }
 
 
