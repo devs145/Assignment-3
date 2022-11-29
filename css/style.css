@@ -26,11 +26,11 @@ body {
     width: 75%;
     height: 50%;
     border-radius: 10px;
-    display: flex;
+    display: block;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background: green ;
+    background: grey ;
     position: relative;
 }
 
@@ -40,5 +40,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 160px;
+    position: absolute;
+    color: black;
+}
+
+button {
+    cursor: pointer;
 }
 
