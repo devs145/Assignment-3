@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-    background-image: url("../imgs/backgroundimg.jpg");
+    background-image: url("../imgs/backgroundimg.png");
     margin: auto;
     display: flex;
     align-items: center;
@@ -31,12 +31,12 @@ body {
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    background: rgb(164, 152, 152);
+    background: rgb(74, 115, 81);
     position: absolute;
 }
 
 .pianoelements {
-    width: 85%;
+    width: 90%;
     display: flex;
     align-items: center;
     justify-content: space-between;
