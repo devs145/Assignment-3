@@ -9,16 +9,16 @@ body {
     min-height: 100vh;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-    color: white;
     font-size: 20px;
     line-height: 1.5em;
 }
 
 .container {
+    background-image: url("../imgs/backgroundimg.jpg");
     margin: auto;
     display: flex;
     align-items: center;
-    height: 100vh;
+    height: 105vh;
     user-select: none;
     justify-content: center;
 }
@@ -26,26 +26,44 @@ body {
     width: 75%;
     height: 50%;
     border-radius: 10px;
-    display: block;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background: grey ;
-    position: relative;
+    background: rgb(164, 152, 152);
+    position: absolute;
 }
 
 
 .pianoelements {
-    width: 100%;
+    width: 85%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 160px;
+    height: 120px;
     position: absolute;
-    color: black;
+    color: rgb(0, 0, 0);
+    text-align: center;
 }
 
 button {
     cursor: pointer;
+  
 }
 
+.elements {
+    background-color: black;
+    border-bottom: 0;
+    border-color: white;
+    color: white;
+    width: 10%;
+    height: 100%;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+}
