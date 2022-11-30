@@ -22,25 +22,25 @@ body {
     user-select: none;
     justify-content: center;
 }
+
 .piano {
     width: 75%;
-    height: 50%;
+    height: 45%;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     background: rgb(164, 152, 152);
     position: absolute;
 }
-
 
 .pianoelements {
     width: 85%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 120px;
+    height: 180px;
     position: absolute;
     color: rgb(0, 0, 0);
     text-align: center;
@@ -56,13 +56,13 @@ button {
     border-bottom: 0;
     border-color: white;
     color: white;
-    width: 10%;
+    width: 9%;
     height: 100%;
-    padding: 20px;
+    padding: 40px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 32px;
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 15px;
