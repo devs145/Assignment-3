@@ -1,4 +1,3 @@
-
 var colors= ["#CE1713", "#D5B534", "#0F7833"];
 var counter = 0;
 
