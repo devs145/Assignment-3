@@ -1,75 +1,91 @@
+/* Piano Elements sound effects    */
 
-var meow = document.getElementById("catsound")
-$("#Cat").on("click", function () {
-    meow.play();
+var Q = document.getElementById("qsound")
+$("#Q").on("click", function () {
+    Q.play();
+})
+$(document).on("keypress", function(e) {
+    if (e.key == "Q" || e.key == "q")
+       Q.play();
 })
 
-var doggie = document.getElementById("dogsound")
-
-var cat = false;
-var dog = false;
-var plant = false;
-
-$("#Doggo").on("click", function () {
-    doggie.play();
+var W = document.getElementById("wsound")
+$("#W").on("click", function () {
+    W.play();
+})
+$(document).on("keypress", function(e) {
+    if (e.key == "W" || e.key == "w")
+       W.play();
 })
 
-$("#toggleCat").on("click", function() {
-    cat = !cat;
-    console.log(cat);
-    $("#Cat").toggle();
-
-    if (cat) {
-        $(this).text("check_circle")
-    }
-    else {
-       $(this).text("add_circle")
-    }
-
+var E = document.getElementById("esound")
+$("#E").on("click", function () {
+    E.play();
+})
+$(document).on("keypress", function(e) {
+    if (e.key == "E" || e.key == "e")
+       E.play();
 })
 
-$("#toggleDog").on("click", function() {
-    dog = !dog
-    $("#Doggo").toggle();
-
-    if (dog) {
-        $(this).text("check_circle")
-    }
-    else {
-       $(this).text("add_circle")
-    }
+var R = document.getElementById("rsound")
+$("#R").on("click", function () {
+    R.play();
+})
+$(document).on("keypress", function(e) {
+    if (e.key == "R" || e.key == "r")
+       R.play();
 })
 
-$("#togglePlant").on("click", function() {
-    plant = !plant
-    $("#Plant").toggle();
-    
-    if (plant) {
-        $(this).text("check_circle")
-    }
-    else {
-       $(this).text("add_circle")
-    }
+var T = document.getElementById("tsound")
+$("#T").on("click", function () {
+    T.play();
+})
+$(document).on("keypress", function(e) {
+    if (e.key == "T" || e.key == "t")
+       T.play();
 })
 
-$("#catname").on("keypress", function(e) {
-    if(e.key == "Enter") {
-        var catname = $(this).val()
-        console.log(catname)
-        $(this).remove();
-        $("#myname").text(catname)
-    }
+var Y = document.getElementById("ysound")
+$("#Y").on("click", function () {
+    Y.play();
 })
-$("#catcolor").on("change", function () {
-    console.log("change")
-    var newcolor = $(this).val()
-    console.log(newcolor)
-    $("#Cat .st8").css("fill", newcolor)
+$(document).on("keypress", function(e) {
+    if (e.key == "Y" || e.key == "y")
+       Y.play();
 })
 
-$("#dogcolor").on("change", function () {
-    console.log("change")
-    var newcolor = $(this).val()
-    console.log(newcolor)
-    $("#Doggo .st8").css("fill", newcolor)
+var U = document.getElementById("usound")
+$("#U").on("click", function () {
+    U.play();
+})
+$(document).on("keypress", function(e) {
+    if (e.key == "U" || e.key == "u")
+       U.play();
+})
+
+var I = document.getElementById("isound")
+$("#I").on("click", function () {
+    I.play();
+})
+$(document).on("keypress", function(e) {
+    if (e.key == "I" || e.key == "i")
+       I.play();
+})
+
+var O = document.getElementById("osound")
+$("#O").on("click", function () {
+    O.play();
+})
+$(document).on("keypress", function(e) {
+    if (e.key == "O" || e.key == "o")
+       O.play();
+})
+
+var P = document.getElementById("psound")
+$("#P").on("click", function () {
+    P.play();
+})
+$(document).on("keypress", function(e) {
+    if (e.key == "P" || e.key == "p")
+       P.play();
 })
