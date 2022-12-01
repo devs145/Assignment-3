@@ -52,10 +52,9 @@ button {
 }
 
 .elements {
-    background-color: black;
+    background-color: #E1E1E1;
     border-bottom: 0;
-    border-color: white;
-    color: white;
+    color: black;
     width: 9%;
     height: 100%;
     padding: 40px;
@@ -66,4 +65,16 @@ button {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 15px;
+    font-weight: bolder;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+
+h1 {
+    justify-content: flex-start;
+    padding: 300px;
+    font: 48px;
+    text-align: start;
 }
